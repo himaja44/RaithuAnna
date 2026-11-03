@@ -116,7 +116,7 @@ export default function Auth({ initialMode = "login" }) {
             <Sprout size={42} strokeWidth={2} />
 
             <div>
-              <h2>RaithuMitra</h2>
+              <h2>RaithuAnna</h2>
               <span>The Next Generation Farmer</span>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function Auth({ initialMode = "login" }) {
                 <>
                   Welcome back to
                   <br />
-                  <span>RaithuMitra</span>
+                  <span>RaithuAnna</span>
                 </>
               )}
             </h1>
@@ -197,7 +197,7 @@ export default function Auth({ initialMode = "login" }) {
 
             <div className="auth-mobile-brand">
               <Sprout size={34} color="#078638" />
-              <h2>RaithuMitra</h2>
+              <h2>RaithuAnna</h2>
             </div>
 
             <h2 className="auth-heading">
@@ -208,7 +208,7 @@ export default function Auth({ initialMode = "login" }) {
 
             <p className="auth-description">
               {mode === "register"
-                ? "Start your journey with RaithuMitra."
+                ? "Start your journey with RaithuAnna."
                 : "Enter your mobile number to sign in or get started."}
             </p>
 
@@ -314,7 +314,7 @@ export default function Auth({ initialMode = "login" }) {
                   />
 
                   <span>
-                    I agree to RaithuMitra{" "}
+                    I agree to RaithuAnna{" "}
                     <a href="/terms" target="_blank" rel="noreferrer">
                       Terms of Service
                     </a>{" "}

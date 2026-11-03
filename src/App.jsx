@@ -325,7 +325,7 @@ function Support() {
         </div>
 
         <a href="/register" className="banner-button">
-          Join RaithuMitra Today →
+          Join RaithuAnna Today →
         </a>
       </section>
 
@@ -364,7 +364,7 @@ function Footer() {
         <div className="brand">
           <span className="brand-icon">🌿</span>
           <span>
-            <strong>RaithuMitra</strong>
+            <strong>RaithuAnna</strong>
             <small>The Next Generation Farmer</small>
           </span>
         </div>
