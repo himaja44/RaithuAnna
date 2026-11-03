@@ -40,7 +40,7 @@ export default function Auth({ initialMode = "login" }) {
       return;
     }
 
-    // Frontend placeholder until Spring Boot SMS integration
+    // Frontend simulation until backend SMS integration
     setOtpSent(true);
     setOtp("");
 
@@ -72,7 +72,9 @@ export default function Auth({ initialMode = "login" }) {
       }
 
       if (!termsAccepted) {
-        showMessage("Please accept the Terms of Service and Privacy Policy.");
+        showMessage(
+          "Please accept the Terms of Service and Privacy Policy."
+        );
         return;
       }
     }
@@ -122,11 +124,15 @@ export default function Auth({ initialMode = "login" }) {
           <div className="auth-visual-content">
             <span className="auth-tagline">GROW WITH US</span>
 
-            <h1>
+            {/* LEFT HEADING */}
+            <h1 className="auth-main-heading">
               {mode === "register" ? (
                 <>
-                  Create your RaithuMitra
-                <br />account
+                  Create your
+                  <br />
+                  <span>RaithuAnna</span>
+                  <br />
+                  account
                 </>
               ) : (
                 <>
@@ -148,6 +154,7 @@ export default function Auth({ initialMode = "login" }) {
                 <div className="auth-benefit-icon">
                   <Phone size={22} />
                 </div>
+
                 <div>
                   <h3>Phone & OTP Login</h3>
                   <p>Simple and secure mobile authentication.</p>
@@ -158,6 +165,7 @@ export default function Auth({ initialMode = "login" }) {
                 <div className="auth-benefit-icon">
                   <Layers size={22} />
                 </div>
+
                 <div>
                   <h3>Role-Based Access</h3>
                   <p>Access your dedicated Farmer or Agent dashboard.</p>
@@ -168,6 +176,7 @@ export default function Auth({ initialMode = "login" }) {
                 <div className="auth-benefit-icon">
                   <ShieldCheck size={22} />
                 </div>
+
                 <div>
                   <h3>Secure & Protected</h3>
                   <p>Your information stays safe and protected.</p>
