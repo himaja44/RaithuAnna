@@ -125,11 +125,8 @@ export default function Auth({ initialMode = "login" }) {
             <h1>
               {mode === "register" ? (
                 <>
-                  Create your
-                  <br />
-                  <span>RaithuMitra</span>
-                  <br />
-                  account
+                  Create your RaithuMitra
+                <br />account
                 </>
               ) : (
                 <>
