@@ -258,7 +258,7 @@ export default function Auth({ initialMode = "login" }) {
 
                   {/* EMAIL */}
                   <label className="auth-label">
-                    Email Address <span>(Optional)</span>
+                    Email Address 
                   </label>
 
                   <div className="auth-input-icon">
