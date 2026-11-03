@@ -1,8 +1,9 @@
 
 import React from "react";
 import "./App.css";
-import Auth from "./components/Auth/Auth";
 import { Routes, Route } from "react-router-dom";
+import Login from "./components/Auth/Login";
+import Register from "./components/Auth/Register";
 
 // ================= SERVICES =================
 const services = [
@@ -437,8 +438,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Auth initialMode="login" />} />
-      <Route path="/register" element={<Auth initialMode="register" />} />
+      
+      <Route path="/login" element={<Login />} />
+<Route path="/register" element={<Register />} />
     </Routes>
   );
 }
